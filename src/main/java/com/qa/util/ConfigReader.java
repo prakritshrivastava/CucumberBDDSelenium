@@ -17,7 +17,7 @@ public class ConfigReader {
             prop.load(configStream);
         }
         catch(IOException fileLoadException){
-            System.out.println("Error while loading the Config File: "+fileLoadException.getMessage());
+            System.out.println("Error obtained while loading the Config File: "+fileLoadException.getMessage());
         }
         return prop;
     }
